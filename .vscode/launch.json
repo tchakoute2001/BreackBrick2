@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "main.Test",
+            "projectName": "BreackBrick2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyApp",
+            "request": "launch",
+            "mainClass": "tchakoute.progetto2.test",
+            "vmArgs": "-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:59880 -XX:+ShowCodeDetailsInExceptionMessages",
+            "console": "integratedTerminal"
+        }
+    ]
+}
